@@ -47,7 +47,7 @@ const page = () => {
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
-        router.push("/dashboard/overview&prompt=true");
+        router.push("/dashboard/overview");
 
         // ...
       })

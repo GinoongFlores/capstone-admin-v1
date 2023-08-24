@@ -27,8 +27,8 @@ const pages = [
   "Users",
   "Pending",
   "Completed",
-  "Plastic",
-  "Activity",
+  "Collectors",
+  "Consolidator",
   "Recycle",
 ];
 
@@ -61,10 +61,10 @@ function Navbar() {
       setActive("Completed");
     } else if (pathname === "/dashboard/recycle") {
       setActive("Recycle");
-    } else if (pathname === "/dashboard/activity") {
-      setActive("Activity");
-    } else if (pathname === "/dashboard/plastic") {
-      setActive("Plastic");
+    } else if (pathname === "/dashboard/consolidator") {
+      setActive("Consolidator");
+    } else if (pathname === "/dashboard/Collectors") {
+      setActive("Collectors");
     }
   }, [pathname]);
 
