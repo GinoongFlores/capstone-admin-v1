@@ -1,9 +1,10 @@
 "use client";
 import { ThemeProvider } from "@emotion/react";
 import { Box, CssBaseline, createTheme } from "@mui/material";
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 export const ThemeProviderContext = createContext();
+
 const ThemeModeProvider = ({ children }) => {
   const themeMUI = createTheme({});
   const [theme, setTheme] = useState(() => {
