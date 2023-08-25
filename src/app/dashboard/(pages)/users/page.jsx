@@ -1,4 +1,4 @@
-// "use client";;
+"use client";
 import { Box, Tabs, Tab, Typography } from "@mui/material";
 import { useState, useContext } from "react";
 import { UsersTable } from "../../../../components";
