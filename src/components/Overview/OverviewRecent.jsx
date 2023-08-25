@@ -1,4 +1,4 @@
-"use client";
+// "use client";;
 import React, { useContext } from "react";
 import { ThemeProviderContext } from "../../context/ThemeProvider";
 import { Box, Divider, Typography } from "@mui/material";

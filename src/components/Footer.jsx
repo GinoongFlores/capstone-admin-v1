@@ -1,4 +1,4 @@
-"use client";
+// "use client";;
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import React from "react";
 import { ThemeProviderContext } from "../context/ThemeProvider";

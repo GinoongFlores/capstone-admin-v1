@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-"use client";
+// // "use client";;
 import { Box, Skeleton } from "@mui/material";
 import React from "react";
 import { PlasticBody, PlasticHeader } from "../../../../components";
