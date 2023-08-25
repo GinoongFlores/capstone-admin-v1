@@ -1,4 +1,4 @@
-"use client";
+// "use client";;
 import { ThemeProvider } from "@emotion/react";
 import { Box, CssBaseline, createTheme } from "@mui/material";
 import React, { createContext, useContext, useState } from "react";

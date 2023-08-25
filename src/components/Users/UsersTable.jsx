@@ -1,4 +1,4 @@
-"use client";
+// "use client";;
 import React, { useContext } from "react";
 import Box from "@mui/material/Box";
 import { DataGrid, GridColumnMenu, GridToolbar } from "@mui/x-data-grid";
