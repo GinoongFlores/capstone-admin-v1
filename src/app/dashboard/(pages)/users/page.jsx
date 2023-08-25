@@ -1,6 +1,6 @@
 "use client";
 import { Box, Tabs, Tab, Typography } from "@mui/material";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { UsersTable } from "../../../../components";
 import React from "react";
 import styled from "@emotion/styled";
@@ -36,10 +36,10 @@ function a11yProps(index) {
   };
 }
 
-const page = () => {
-  const { theme } = React.useContext(ThemeProviderContext);
+const Page = () => {
+  const { theme } = useContext(ThemeProviderContext);
   const darkTheme = theme === "dark";
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -96,4 +96,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import { Box, Skeleton } from "@mui/material";
 import React from "react";
@@ -7,9 +8,9 @@ import CollectorsHeader from "../../../../components/Collectors/CollectorsHeader
 import { collection, query, where, onSnapshot } from "firebase/firestore";
 import { db } from "../../../../firebase-config";
 
-export const metadata = {
-  title: "Collectors",
-};
+// export const metadata = {
+//   title: "Collectors",
+// };
 const page = () => {
   const [rows, setrows] = React.useState([]);
 

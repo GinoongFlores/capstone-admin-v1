@@ -42,7 +42,7 @@ const CollectorsHeader = ({ total }) => {
               fontWeight: "600",
             }}
           >
-            Total of users
+            Total of Collectors
           </Typography>
 
           <Typography

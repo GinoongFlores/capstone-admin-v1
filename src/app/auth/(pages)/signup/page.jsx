@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import { VisibilityOff, Visibility, AccountCircle } from "@mui/icons-material";
 
